@@ -143,6 +143,28 @@ function vote(url){
   window.open(url+'?pseudo='+p,'_blank');
 }
 </script>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
 
+<div id="tsparticles"></div>
+
+<script>
+tsParticles.load("tsparticles", {
+  particles: {
+    number: { value: 60 },
+    color: { value: "#c6ff00" },
+    links: {
+      enable: true,
+      color: "#c6ff00"
+    },
+    move: {
+      enable: true,
+      speed: 1
+    }
+  },
+  background: {
+    color: "transparent"
+  }
+});
+</script>
 </body>
 </html>
