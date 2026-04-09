@@ -36,3 +36,8 @@ button:hover {
 h1 {
     text-shadow: 0 0 10px #c6ff00;
 }
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 12px;
+}
